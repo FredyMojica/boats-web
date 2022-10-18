@@ -55,7 +55,7 @@ export default function Form({ data, submit, clients, boats, onClear }) {
         </select>
 
         <div className="d-flex justify-content-end">
-        <button className="btn btn-pimary" type="button" onClick={onClick}>{(!state || state.id === "") ? "Save" : "Update"}</button>
+        <button className="btn btn-pimary" type="button" onClick={onClick}>{(!state || state.idMessage === "") ? "Save" : "Update"}</button>
         <button className="btn btn-secondary" type="button" onClick={() => onClear()}>Clear</button>
         </div>
         
